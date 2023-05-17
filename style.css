@@ -1,4 +1,81 @@
-header {
-    background-color: #424E61;
-    color: white;
+*{
+    margin:0px;
+    padding:0px;
+}
+.cabeçalho{
+    background-color: #5B77E8;
+    color: black;
+    display: flex;
+    font-size: 30px;
+    justify-content: space-around;
+}
+.imagemcabeçalho{
+    width: 275px;
+    height: 150px;
+}
+.imagemcódigos{
+    width: 40%;
+    height: 65%;
+}
+.texto{
+    background-color: #93BFCF;
+    padding: 100px 80px;
+    display: flex;
+    align-items: center;
+}
+.cabeçalholistaitem{
+    list-style-type:none;
+    display: inline-block;
+    margin: 110px 20px 0px;
+    font-size: 24px;
+}
+.divtítulocabeçalho{
+    padding: 35px 50px;
+    font-size: 26px;
+}
+.parágrafo1{
+    font-size: 20px;
+}
+.parágrafo2{
+    font-size: 20px;
+}
+.títuloseção{
+    font-size: 34px;
+}
+.cursistas{
+    text-align: center;
+    background-color: #349ec5;
+}
+.foto1{
+    width: 200px;
+}
+.foto2{
+    width: 200px;
+}
+.foto3{
+    width: 200px;
+}
+body{
+    font-family: 'Secular One', sans-serif;
+}
+.todososcursistas{
+    display: grid;
+    grid-template-columns: 31% 31% 31%;
+    grid-gap: 35px;
+    padding: 35px 0px 35px 0px;
+}
+.títulocursistas{
+    font-size: 30px;
+    padding: 45px;
+}
+.ícones{
+    width: 30px;
+}
+.rodapé{
+    background-color: black;
+    text-align: center;
+}
+.imagemrodapé{
+    height: 70px;
+    padding: 12px 12px;
 }
